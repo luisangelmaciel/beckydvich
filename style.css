@@ -1,13 +1,3 @@
-@font-face {
-    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFDinTextCompPro-Medium.ttf);
-    font-family: pfd-medium;
-}
-
-@font-face {
-    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PT_Sans-Web-Regular.ttf);
-    font-family: ptsans-regular;
-}
-
 *,
 *:before,
 *:after {
@@ -119,7 +109,7 @@ body {
     z-index: 500;
     position: absolute;
     font-size: 1.6rem;
-    font-family: ptsans-regular;
+    font-family: ;
     top: 26.7rem;
     left: 0rem;
     width: 15rem;
@@ -416,7 +406,7 @@ body {
     font-size: 6rem;
     text-transform: uppercase;
     line-height: 1;
-    font-family: pfd-medium;
+    font-family: ;
     padding: 0 2rem 4rem;
     background: rgba(0, 0, 0, 0.4);
     cursor: pointer;
@@ -431,7 +421,7 @@ body {
     left: 2rem;
     font-size: 2rem;
     text-transform: uppercase;
-    font-family: ptsans-regular;
+    font-family: ;
 }
 
 .bg-part {
@@ -498,7 +488,7 @@ body {
     z-index: 500;
     transition: transform 0.5s 1.5s, opacity 0.3s 1.7s, z-index 0.5s 1.5s;
     font-size: 3rem;
-    font-family: ptsans-regular;
+    font-family: ;
     text-transform: uppercase;
     bottom: 8rem;
     left: calc(50% - 15rem);
